@@ -1,0 +1,24 @@
+<style>
+    .dark{
+        color: white;
+        background-color: green;
+
+    }
+
+    .light{
+        color: black;
+        background-color: blue;
+    }
+    
+</style>
+
+<body>
+    <p class="dark"></p>
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+</head>

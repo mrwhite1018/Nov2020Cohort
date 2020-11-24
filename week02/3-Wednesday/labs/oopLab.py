@@ -2,8 +2,27 @@
 
 # 1. Create an empty class called "Student"
 
+#class Student:
+#    def __init__(self, name, Student):
+#        self.name = name
+#        self.Student = Student
+
+#    def greeting(self, name):
+#        return f'Good morning {name}'
 
 # 2. Create 5 students objects (instances of the class "Student") of "Student" types
+
+#michael = Student("michael")
+#cedael = Student("cedael")
+#joseph = Student("joseph")
+#kim = Student("kim")
+#jordan = Student("jordan")
+
+#print(michael.greeting())
+#print(cedael.greeting())
+#print(joseph.greeting())
+#print(kim.greeting())
+#print(jordan.greeting())
 
 
 # 3a. Create a "greeting" method inside of the class "Student" class that

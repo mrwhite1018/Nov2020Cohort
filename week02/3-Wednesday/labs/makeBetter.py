@@ -23,23 +23,23 @@ def phonebook(d):
         if name in d:
             print(d[name])
         else:
-            print("{} not found".format(name))
+            print("{} not found")
         input("")
         phonebook(d)
     elif choice == "2":
         name = input("Name: ")
         number = input("Number: ")
         d[name] = number
-        input("Entry stored for {}".format(name))
+        input("Entry stored for {}")
         phonebook(d)
     elif choice == "3":
         name = input("Name: ")
         del d[name]
-        input("Deleted entry for {}".format(name))
+        input("Deleted entry for {}")
         phonebook(d)
     elif choice == "4":
         for key in d:
-            print("Found entry for {}: {}".format(key, d[key]))
+            print("Found entry for {}")
         input("")
         phonebook(d)
     elif choice == "5":
@@ -50,3 +50,4 @@ def phonebook(d):
 
 
 phonebook(d)
+2

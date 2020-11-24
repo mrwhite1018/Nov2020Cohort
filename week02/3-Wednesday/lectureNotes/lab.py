@@ -59,6 +59,27 @@
 # Create a new class called Car with the following method :
 # CarDetails which prints "Here are details of this car"
 
+class Car:
+    def __init__(self, make, model, color):
+        self.make = make
+        self.model = model
+        self.color = color
+
+class carDetails(self):
+
+    print("Here are the car details")
+
+
+class Hybrid(Car):        
+    def carType(self):
+        print("I am a hybrid car")
+
+class Eletric(Car):
+    def carType(self):
+        print("i am a eletric car")
+
+prius = 
+
 # Create a new class called Hybrid that inherits from the Car class
 #  with the following method: CarType which prints "I am a hybrid car"
 
