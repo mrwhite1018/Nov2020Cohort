@@ -1,0 +1,15 @@
+
+.board{
+    border: 10px solid red;
+    width: 450px;
+    height: 450px;
+}
+.tile{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+}
+.tile:nth-child(even){
+    background-color: black;
+}

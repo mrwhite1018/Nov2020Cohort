@@ -1,0 +1,35 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666666;
+    color: white;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+    text-decoration: dashed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+a:hover {
+    background-color: forestgreen;
+    padding: 10px;
+}
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
