@@ -1,0 +1,26 @@
+/*
+black -#000000
+navy - #14213D
+gold - # FCA311
+light gray - # E5E5E5
+white = #FFFFFF
+*/
+
+.cw-bg-black{
+    background-color:black;
+}
+
+.cw-bg-navy{
+    background-color: #14213D;
+}
+
+.cw-bg-accent{
+    background-color: #fca311;
+}
+
+.cw-bglightGray{
+    background-color: #e5e5e5;
+}
+
+.cw-bg-white{
+    background-color: white;
